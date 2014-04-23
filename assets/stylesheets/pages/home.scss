@@ -1,0 +1,65 @@
+///////////////////////////////////////
+// Home
+///////////////////////////////////////
+
+body#home {
+
+  ul {
+    font-family: $sans-serif;
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+      width: 19%;
+      margin-right: 0;
+      text-align: center;
+
+      a {
+        &:hover {
+          box-shadow: none;
+        }
+      }
+
+      @include breakpoint(mobile) {
+        display: block;
+        text-align: left;
+      }
+
+    }
+
+    .email {
+      color: #C6C0C9;
+      &:hover {
+        color: mix(#C6C0C9, white, 70%);
+      }
+    }
+
+    .twitter {
+      color: #00A0D1;
+      &:hover {
+        color: mix(#00A0D1, white, 70%);
+      }
+    }
+
+    .dribbble {
+      color: #EA4C89;
+      &:hover {
+        color: mix(#EA4C89, white, 70%);
+      }
+    }
+
+    .github {
+      color: #333;
+      &:hover {
+        color: mix(#333, white, 70%);
+      }
+    }
+
+    .instagram {
+      color: #3F729B;
+      &:hover {
+        color: mix(#3F729B, white, 70%);
+      }
+    }
+  }
+}

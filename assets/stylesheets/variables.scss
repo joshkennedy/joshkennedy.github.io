@@ -1,0 +1,22 @@
+///////////////////////////////////////
+// Colors
+///////////////////////////////////////
+
+  $white:     #FFFFFF;
+  $text:      rgba(56,47,51,1);
+  $gray:      #E9ECED;
+  $orange:    rgba(251,101,73,1);
+  $blue:      rgba(61,121,169,1);
+
+
+///////////////////////////////////////
+// Typography Variables
+///////////////////////////////////////
+
+  $type-ratio: 1.45;
+  $font-size-px: 21px;
+  $font-size: 1.3125rem; // ~21px
+  $line-height: $type-ratio;
+  $type-margin-bottom: $font-size;
+  $serif: "freight-text-pro", Georgia, "Times New Roman", serif;
+  $sans-serif: "freight-sans-pro", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
