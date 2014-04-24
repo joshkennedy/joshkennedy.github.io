@@ -10,9 +10,10 @@ body#home {
 
     li {
       display: inline-block;
-      width: 19%;
+      font-weight: normal;
       margin-right: 0;
       text-align: center;
+      width: 19%;
 
       a {
         &:hover {
@@ -24,41 +25,40 @@ body#home {
         display: block;
         text-align: left;
       }
-
     }
 
     .email {
       color: #C6C0C9;
       &:hover {
-        color: mix(#C6C0C9, white, 70%);
+        box-shadow: 0 1px mix(#C6C0C9, white, 70%);
       }
     }
 
     .twitter {
       color: #00A0D1;
       &:hover {
-        color: mix(#00A0D1, white, 70%);
+        box-shadow: 0 1px mix(#00A0D1, white, 70%);
       }
     }
 
     .dribbble {
       color: #EA4C89;
       &:hover {
-        color: mix(#EA4C89, white, 70%);
+        box-shadow: 0 1px mix(#EA4C89, white, 70%);
       }
     }
 
     .github {
       color: #333;
       &:hover {
-        color: mix(#333, white, 70%);
+        box-shadow: 0 1px mix(#333, white, 70%);
       }
     }
 
     .instagram {
       color: #3F729B;
       &:hover {
-        color: mix(#3F729B, white, 70%);
+        box-shadow: 0 1px mix(#3F729B, white, 70%);
       }
     }
   }

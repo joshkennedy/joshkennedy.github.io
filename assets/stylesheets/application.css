@@ -270,9 +270,10 @@ body#home ul {
   padding-left: 0; }
   body#home ul li {
     display: inline-block;
-    width: 19%;
+    font-weight: normal;
     margin-right: 0;
-    text-align: center; }
+    text-align: center;
+    width: 19%; }
     body#home ul li a:hover {
       box-shadow: none; }
     @media (max-width: 480px) {
@@ -282,20 +283,20 @@ body#home ul {
   body#home ul .email {
     color: #C6C0C9; }
     body#home ul .email:hover {
-      color: #d7d2d9; }
+      box-shadow: 0 1px #d7d2d9; }
   body#home ul .twitter {
     color: #00A0D1; }
     body#home ul .twitter:hover {
-      color: #4cbcde; }
+      box-shadow: 0 1px #4cbcde; }
   body#home ul .dribbble {
     color: #EA4C89; }
     body#home ul .dribbble:hover {
-      color: #f081ac; }
+      box-shadow: 0 1px #f081ac; }
   body#home ul .github {
     color: #333; }
     body#home ul .github:hover {
-      color: #707070; }
+      box-shadow: 0 1px #707070; }
   body#home ul .instagram {
     color: #3F729B; }
     body#home ul .instagram:hover {
-      color: #789cb9; }
+      box-shadow: 0 1px #789cb9; }
